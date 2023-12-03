@@ -12,6 +12,37 @@
     <link rel="stylesheet" href="assets\css\style.css" />
 </head>
 <body>
-    <h1></h1>
+    <!-- Header & Navbar-->
+    <header id="header" class="sticky-top">
+        <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <!-- Logo -->
+            <a class="logo" href="index.html">
+                <img src="assets/images/logo.png" alt="Redman_Personal_Training_logo" width="70" height="70">
+                <span class="visually-hidden"> Redman_Personal_Training </span>
+            </a>     
+            <button class="navbar-toggker colapsed" type="buttom" data-bs-target="#toggleHam" data-bs-toggle="collapse" aria-controls="toggleHam" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+                <span class="visually-hidden">Toggle Menu</span>
+            </button> 
+            <div class="navbar-collapse collape show" id="toggleHam" style>
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li>
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="train_w_me.html">Train with me</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
 </body>
 </html>
