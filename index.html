@@ -8,41 +8,52 @@
     <meta name="keywords" content="Redman, Personal Training, fitness, workout, personal coach, health, gym, exercise, wellness, training programs" />
     <!-- Page Title -->
     <title>Redman_Personal_Training</title>
+    <!--Fivacon-->
+    <link rel="icon" href="assets\favicon\favicon-32x32.png" type="image/png">
     <!-- Custom CSS Link -->
     <link rel="stylesheet" href="assets\css\style.css" />
 </head>
 <body>
     <!-- Header & Navbar-->
-    <header id="header" class="sticky-top">
-        <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <!-- Logo -->
-            <a class="logo" href="index.html">
-                <img src="assets/images/logo.png" alt="Redman_Personal_Training_logo" width="70" height="70">
-                <span class="visually-hidden"> Redman_Personal_Training </span>
-            </a>     
-            <button class="navbar-toggker colapsed" type="buttom" data-bs-target="#toggleHam" data-bs-toggle="collapse" aria-controls="toggleHam" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
-                <span class="visually-hidden">Toggle Menu</span>
-            </button> 
-            <div class="navbar-collapse collape show" id="toggleHam" style>
-                <ul class="navbar-nav ms-auto text-uppercase">
-                    <li>
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="train_w_me.html">Train with me</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        </div>
+    <header>
+        <!-- Logo -->
+        <a href="index.html" id="logo">
+            <img src="assets\images\logo-removebg-preview.png" alt="Redman_Personal_Training_logo" width="100" height="100">
+        </a> 
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" id="menu-label">☰</label>
+    <!--Navigation bar-->
+    <nav>
+        <ul class="navbar-nav ms-auto text-uppercase">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <li><a class="nav-link" href="train_w_me.html">Train with me</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
     </header>
+<!-- Main Content -->
+    <main>
+        <!--Hero Section-->
+        <section id="hero-section" aria-label="Picture of Trainer performing a pull-up on outdoor bars against a backdrop of lush trees in the evening light.">
+            <!--Heading-->
+            <div class="hero-text">
+                <h1 id="home-page-h1">Embrace the Challenge</h1>
+                <h2 id="home-tag-line">take charge of your health and fitness goals</h2>
+            </div>
+        </section>
+        <section id="intro-message">
+            <!--Intro message-->
+            <div id="intro-message-text">
+                <p>I firmly believe that our potential exceeds our expectations. My mission is to unlock that hidden strength within you, guiding you to surpass your personal ambitions. My approach to fitness revolves around three core pillars: strength, endurance, and functionality, each vital in its own right. Many focus solely on cardio, yet muscle conditioning, particularly crucial for women in their prime years like myself, is often overlooked. Through my classes and training sessions,
+                     I aim to instill a deep understanding of the exercises and the significance of proper nutrition as fuel. This isn't about short-term gains; it's about the enduring journey towards a grander vision. My passion for what I do is boundless, and while I may not make everyone love the path of health and fitness as intensely as I do, I aspire to at least kindle a spark of appreciation for it.</p>
+            </div>
+        </section>
+        <section id="hero-section-n2" aria-label="Picture of trainer exercising in outdoor park"></section>
+    </main>
+    <!--Footer-->
+    <footer>
+
+    </footer>
 </body>
 </html>

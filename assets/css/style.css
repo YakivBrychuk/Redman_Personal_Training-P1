@@ -1,8 +1,41 @@
-element.style {
-
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 10px 20px;
+    z-index: 99;
 }
-.sticky-top {
-    position: sticky;
-    top: 0;
-    z-index: 1020;
+
+header a {
+    text-decoration: none;
+    color: #323232;
+}
+#logo img {
+    height: 100px; 
+    width: auto; 
+}
+
+.navbar-nav {
+    list-style-type: none; /* Remove bullet points */
+    display: flex;
+    gap: 20px; /* Add space between navigation items */
+}
+
+.nav-link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set text color */
+    /* Add more styles for hover, focus, etc. */
+}
+#menu-toggle {
+    display: none;
+}
+/* Menu icon styles */
+#menu-label {
+    display: none; /* Hide initially or show based on media query for responsiveness */
+    cursor: pointer;
+    font-size: 45px;
+    align-self: flex-start;
+    padding-top: 3px;
+    padding-right: 7px;
 }
