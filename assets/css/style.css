@@ -18,14 +18,17 @@ header a {
 }
 #logo{
     height: 150px; 
+    position: fixed;
 }
 #logo img{
     height: 100%;
 }
 .navbar-nav {
+    position: fixed;
     list-style-type: none; /* Remove bullet points */
     display: flex;
     gap: 20px; /* Add space between navigation items */
+    justify-content: space-around;
 }
 
 .nav-link {
@@ -45,6 +48,11 @@ header a {
     padding-top: 3px;
     padding-right: 7px;
 }
+
+/* Hero Section */
+#home-page-h1,#home-page-tagline {
+    font-size: 250%;
+    }
 #home-page-h1{
     margin: 0;
 }
