@@ -45,7 +45,9 @@ header a {
     padding-top: 3px;
     padding-right: 7px;
 }
-
+#home-page-h1{
+    margin: 0;
+}
 .hero-text {
     background-image: url("./../images/heroimage.jpg");
     background-size: 100% 100%;
