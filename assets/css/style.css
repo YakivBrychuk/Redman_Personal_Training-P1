@@ -1,41 +1,72 @@
-header {
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #000000;
-    padding: 10px 20px;
-    z-index: 99;
+    width:100%;
+    background-color: black;
 }
 
-header a {
+header a{
     text-decoration: none;
     color: #323232;
 }
-#logo img {
-    height: 100px; 
-    width: auto; 
+#logo{
+    height: 150px; 
+    
 }
-
-.navbar-nav {
-    list-style-type: none; /* Remove bullet points */
+#logo img{
+    height: 100%;
+}
+.navUl{
+    list-style: none; /* Remove bullet points */
     display: flex;
     gap: 20px; /* Add space between navigation items */
+    justify-content: space-evenly;
+    width: 400px;
 }
 
 .nav-link {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Set text color */
-    /* Add more styles for hover, focus, etc. */
+    text-decoration: none; 
+    color: white; 
+   
 }
-#menu-toggle {
-    display: none;
+
+
+
+.hero-section {
+    background-image: url("./../images/heroimage.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    z-index: -999;
+    margin-bottom:100px;
+} 
+
+.hero-text{
+    
+    height:800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-/* Menu icon styles */
-#menu-label {
-    display: none; /* Hide initially or show based on media query for responsiveness */
-    cursor: pointer;
-    font-size: 45px;
-    align-self: flex-start;
-    padding-top: 3px;
-    padding-right: 7px;
+.hero-text h1, .hero-text h2{
+    padding: 20px 100px;
+    color:white;
 }
+.intro-message-text{
+    width: 50%;
+    margin:auto;
+    padding:20px;
+    border:2px solid blue;
+}
+/* @media only screen and (max-width: 600px){
+    #menu-toggle{
+        display:block;
+    }
+} */
