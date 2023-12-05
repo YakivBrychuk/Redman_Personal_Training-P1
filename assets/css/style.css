@@ -111,7 +111,7 @@ header a{
     font-size: 20px;
     background: rgba(26, 26, 26, 0.7); /* Opacity 70% */ 
     margin-bottom: 0;
-
+    border:1.5px solid #F03333;
 }
 .intro-message-text{
     width: 50%;

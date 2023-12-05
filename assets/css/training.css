@@ -18,3 +18,63 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
+#logo{
+    height: 150px; 
+    margin-left: 30px;
+    
+}
+#logo img{
+    height: 100%;
+}
+.navUl{
+    list-style: none; /* Remove bullet points */
+    display: flex;
+    gap: 20px; /* Add space between navigation items */
+    justify-content: space-evenly;
+    width: 400px;
+    
+}
+.navUl ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: white; 
+   
+}
+.trainer-image-container{
+    background-image: url("/Redman_Personal_Training-P1/assets/images/heroimage.jpg");
+   
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 1.9rem;
+    border-top: 1.5px solid #F03333;
+    padding: 10px 0;
+    
+}
+
+footer i {
+    font-size: 45px;
+    color: white;
+    margin: 20px;
+}
+
+footer i:hover {
+    font-size: 3.3rem;
+    color: #F03333 ;
+}
+.socialmedia-icons{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
