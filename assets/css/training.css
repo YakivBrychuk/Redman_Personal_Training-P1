@@ -46,7 +46,18 @@ body {
    
 }
 .trainer-image-container{
-    background-image: url("/Redman_Personal_Training-P1/assets/images/heroimage.jpg");
+    background-image: url("../images/personaltraining.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 50%; 
+    height: 900px; 
+    margin:auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    border:1.5px solid #F03333;
+    z-index: 1;
    
 }
 
