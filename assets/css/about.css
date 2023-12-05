@@ -80,7 +80,7 @@ header a{
     border:1.5px solid #F03333;
     margin-bottom: 50px;
     margin-top: 50px;
-
+}
 
 
 footer {
@@ -107,4 +107,4 @@ footer i:hover {
     width: 400px;
     display: flex;
     justify-content: space-evenly;
-}
+} 
