@@ -57,7 +57,7 @@ header a{
     background-image: url("./../images/heroimage.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 40%;
+    width: 70%;
     height: 900px;  
     z-index: -999;
     margin-bottom:100px;
@@ -111,12 +111,13 @@ header a{
     font-size: 20px;
     background: rgba(26, 26, 26, 0.7); /* Opacity 70% */ 
     margin-bottom: 0;
-    border:1.5px solid #F03333;
+    
 }
+
 .intro-message-text{
     width: 50%;
     margin:auto;
-    padding:20px;
+    padding:20px;       
     border:1.5px solid #F03333;
     color: white;
     font-family: "Montserrat", sans-serif;
