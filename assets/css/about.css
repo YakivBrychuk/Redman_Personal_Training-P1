@@ -49,8 +49,8 @@ header a{
     align-items: center;
     height: 100px; /* Adjust the height as needed */
     color: white;
-    border:1.5px solid #F03333;
     font-family: "Montserrat", sans-serif;
+    font-size: 30px;
 }
 
 .trainer-profile {
@@ -78,8 +78,8 @@ header a{
     color: white;
     font-family: "Montserrat", sans-serif;
     border:1.5px solid #F03333;
-}
-
+    margin-bottom: 50px;
+    margin-top: 50px;
 
 
 
@@ -101,4 +101,9 @@ footer i {
 footer i:hover {
     font-size: 3.3rem;
     color: #F03333 ;
+}
+.socialmedia-icons{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
 }

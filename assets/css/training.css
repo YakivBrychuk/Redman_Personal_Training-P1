@@ -53,7 +53,7 @@ body {
     width: 50%; 
     height: 900px; 
     margin:auto;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 150px;
     display: flex;
     border:1.5px solid #F03333;
@@ -62,16 +62,24 @@ body {
 }
 /* H1 */
 
-/* .train-with-me-h1 h1{
+.train-with-me-h1 h1{
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
+    margin: 0;
     color: white;
     height: 200px;
     font-family: "Montserrat", sans-serif;
-    background-color: grey;
+    font-size: 50px;
+    background-color: #1A1A1A;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+
     
-} */
+}
 /* Types of Training */
 
 .private-training, .boot-camp, .workout-online{
