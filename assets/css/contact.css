@@ -30,9 +30,9 @@ header a{
     height: 100%;
 }
 .navUl{
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
     display: flex;
-    gap: 20px; /* Add space between navigation items */
+    gap: 20px; 
     justify-content: space-evenly;
     width: 400px;
 }
@@ -76,9 +76,9 @@ header a{
 .form-section {
     border: 1.5px solid #F03333;
     padding: 2rem;
-    background: white; /* Assuming the form background is white */
-    max-width: 800px; /* Adjust the width as needed */
-    margin: 2rem auto; /* Centers the form in the section with some margin */
+    background: white; 
+    max-width: 800px; 
+    margin: 2rem auto; 
     font-family: "Montserrat", sans-serif;
     margin-top: 10px;
 }
@@ -89,7 +89,7 @@ header a{
 }
 
 .form-group {
-    margin-bottom: 1rem; /* Spacing between form groups */
+    margin-bottom: 1rem;
 }
 
 .form-row {
@@ -98,29 +98,29 @@ header a{
 }
 
 .form-row .form-group {
-    flex-basis: 48%; /* Adjust the width of the form groups in the row */
+    flex-basis: 48%; 
 }
 
 .input-field {
-    width: 100%; /* Full width */
+    width: 100%; 
     padding: 0.5rem;
     margin-top: 0.5rem;
-    border: 1px solid #ddd; /* Light gray border */
-    border-radius: 4px; /* Slightly rounded corners for the input fields */
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
 }
 
 label {
-    display: block; /* Ensure the label is on its own line */
-    color: #333; /* Dark gray color for text */
+    display: block; 
+    color: #333; 
 }
 
 legend {
-    color: #333; /* Dark gray color for text */
-    margin-bottom: 0.5rem; /* Spacing between the legend and the checkboxes */
+    color: #333; 
+    margin-bottom: 0.5rem; 
 }
 
 input[type=checkbox] {
-    margin-right: 0.5rem; /* Spacing between the checkbox and its label */
+    margin-right: 0.5rem; 
 }
 
 .select {
@@ -131,19 +131,19 @@ input[type=checkbox] {
 }
 
 .submit-btn {
-    padding: 1rem 2rem; /* Larger padding for a bigger button */
-    background: rgba(253, 0, 0, 0.7); /* Semi-transparent red background */
-    color: white; /* White text on the button */
-    border: none; /* No border */
-    border-radius: 4px; /* Slightly rounded corners for the button */
-    cursor: pointer; /* Pointer cursor on hover */
+    padding: 1rem 2rem; 
+    background: rgba(253, 0, 0, 0.7);
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
     font-size: 1rem;
-    margin-top: 1rem; /* Spacing above the button */
+    margin-top: 1rem; 
     font-family: "Montserrat", sans-serif;
 }
 
 .submit-btn:hover {
-    background: rgba(253, 0, 0, 0.9); /* Slightly less transparency on hover */
+    background: rgba(253, 0, 0, 0.9); 
 }
 
 footer {

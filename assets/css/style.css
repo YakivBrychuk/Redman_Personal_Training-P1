@@ -32,9 +32,9 @@ header a{
     height: 100%;
 }
 .navUl{
-    list-style: none; /* Remove bullet points */
+    list-style: none; 
     display: flex;
-    gap: 20px; /* Add space between navigation items */
+    gap: 20px; 
     justify-content: space-evenly;
     width: 400px;
     
@@ -99,7 +99,7 @@ header a{
     background: rgba(253, 0, 0, 0.7); /* Opacity 70% */ 
 }
 .button-link:hover {
-    background: rgba(253, 0, 0, 0.9); /* Slightly less transparency on hover */
+    background: rgba(253, 0, 0, 0.9); /
 }
 
 
