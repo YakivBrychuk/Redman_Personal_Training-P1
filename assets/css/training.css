@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1A1A1A;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    background-color: #1A1A1A;
+    border:1.5px solid #F03333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: #323232;
+}
+#logo{
+    height: 150px; 
+    margin-left: 30px;
+    
+}
+#logo img{
+    height: 100%;
+}
+.navUl{
+    list-style: none; /* Remove bullet points */
+    display: flex;
+    gap: 20px; /* Add space between navigation items */
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: white; 
+   
+}
+
+
+footer {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 1.9rem;
+    border-top: 1.5px solid #F03333;
+    padding: 32px 0;
+}
+
+footer i {
+    font-size: 45px;
+    color: white;
+    margin: 20px;
+}
+
+footer i:hover {
+    font-size: 3.3rem;
+    color: #F03333 ;
+}
