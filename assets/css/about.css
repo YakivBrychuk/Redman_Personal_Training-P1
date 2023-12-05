@@ -102,7 +102,8 @@ footer i:hover {
     font-size: 3.3rem;
     color: #F03333 ;
 }
-.socialmedia-icons{
+
+.socialmedia-icons {
     width: 400px;
     display: flex;
     justify-content: space-evenly;
