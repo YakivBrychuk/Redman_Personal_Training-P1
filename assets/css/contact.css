@@ -72,6 +72,80 @@ header a{
     border:1.5px solid #F03333;
     z-index: 1;
 }
+
+.form-section {
+    border: 1.5px solid #F03333;
+    padding: 2rem;
+    background: white; /* Assuming the form background is white */
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 2rem auto; /* Centers the form in the section with some margin */
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Spacing between form groups */
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    flex-basis: 48%; /* Adjust the width of the form groups in the row */
+}
+
+.input-field {
+    width: 100%; /* Full width */
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners for the input fields */
+}
+
+label {
+    display: block; /* Ensure the label is on its own line */
+    color: #333; /* Dark gray color for text */
+}
+
+legend {
+    color: #333; /* Dark gray color for text */
+    margin-bottom: 0.5rem; /* Spacing between the legend and the checkboxes */
+}
+
+input[type=checkbox] {
+    margin-right: 0.5rem; /* Spacing between the checkbox and its label */
+}
+
+.select {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    padding: 1rem 2rem; /* Larger padding for a bigger button */
+    background: rgba(253, 0, 0, 0.7); /* Semi-transparent red background */
+    color: white; /* White text on the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem;
+    margin-top: 1rem; /* Spacing above the button */
+    font-family: "Montserrat", sans-serif;
+}
+
+.submit-btn:hover {
+    background: rgba(253, 0, 0, 0.9); /* Slightly less transparency on hover */
+}
+
 footer {
     display: flex;
     justify-content: center ;
