@@ -37,6 +37,12 @@ header a{
     gap: 20px; /* Add space between navigation items */
     justify-content: space-evenly;
     width: 400px;
+    
+}
+.navUl ul{
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 .nav-link {
@@ -69,32 +75,44 @@ header a{
     flex-direction: column;
     justify-content: flex-end;
     padding: 40px;
-    width: 50%;
-   
+    width: 70%;
 }
 .hero-text h1{
     padding: 20px 100px ;
     color:white;
     font-family: "Montserrat", sans-serif;
     border:1.5px solid #F03333;
-    font-size: 30px;
+    font-size: 20px;
     background: rgba(26, 26, 26, 0.7); /* Opacity 70% */ 
 }
 .button-link{
     display: flex;
     padding: 10px 20px;
     margin-top: 20px;
-    color: white; 
+    color: white;
+    text-align: center; 
     text-decoration: none; 
     font-family: "Montserrat", sans-serif;
     border-radius: 5px;
-    font-size: 20px;
-    width: 15%;
+    font-size: 15px;
+    width: 12%;
     background: rgba(253, 0, 0, 0.7); /* Opacity 70% */ 
-    align-self: flex-end;
+}
+.textButtom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.textButtom h2{
+
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    background: rgba(26, 26, 26, 0.7); /* Opacity 70% */ 
+    margin-bottom: 0;
 
 }
-
 .intro-message-text{
     width: 50%;
     margin:auto;
@@ -102,6 +120,7 @@ header a{
     border:1.5px solid #F03333;
     color: white;
     font-family: "Montserrat", sans-serif;
+    font-size: auto;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -113,6 +132,7 @@ footer {
     gap: 1.9rem;
     border-top: 1.5px solid #F03333;
     padding: 10px 0;
+    
 }
 
 footer i {
