@@ -111,7 +111,39 @@ body {
 }
 .private-training, .boot-camp, .workout-online{
     text-align: left;
+    position: relative;
+    padding-bottom: 60px;
 }
+
+.article {
+    position: relative;
+    padding-bottom: 60px; 
+}
+
+/* button */
+
+.connect-btn {
+    display: inline-block; 
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    background-color: #F03333; 
+    color: white;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.connect-btn:hover {
+    background: rgba(253, 0, 0, 0.9); 
+}
+
 
 
 
