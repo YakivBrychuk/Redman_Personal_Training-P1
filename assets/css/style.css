@@ -63,7 +63,7 @@ header a{
     margin-bottom:100px;
     border:1.5px solid #F03333;
     margin:auto;
-    margin-top: 300px;
+    margin-top: 250px;
     
     
 } 
@@ -120,15 +120,22 @@ header a{
 }
 
 .intro-message-text{
-    width: 50%;
-    margin:auto;
-    padding:20px;       
-    border:1.5px solid #F03333;
+    display: flex;
+    justify-content: center;
+    width: 69%; /* Adjust width to control line length */
+    height: 300px;
+    margin: auto; /* Shorthand for margin settings */
+    padding: 10px; /* Increase padding for better spacing */
+    padding-left: 10px;
+    border: 1.5px solid #F03333;
+    background-color: rgba(26, 26, 26, 0.7); /* Optional: slight dark background for better contrast */
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: auto;
-    margin-top: 100px;
+    font-size: 22px; /* Specific font size for better readability */
+    line-height: 2; /* Improved line height for better readability */
+    text-align: justify; /* Left-aligned text for better readability */
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 footer {
