@@ -47,6 +47,16 @@ body {
 }
 
 /* THANK YOU CONTAINER */
+.trainer-image-container{
+    background-image: url("/assets/images/thankyou.jpg");
+    display: flex;
+    justify-content: right;
+    background-size: 100% 100%;
+    height: 500px;
+    width: 250px;
+    border:1.5px solid #F03333;
+    z-index: -1;
+}
 
 .thank-you-container{
     display: flex;
@@ -56,6 +66,7 @@ body {
     width: 100%;
     height: 500px;
     margin-top: 200px;
+    margin-bottom: 45px;
 }
 
 .thank-you-h1 h1{
@@ -68,22 +79,27 @@ body {
     height: 100px;
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
-    background-color: #1A1A1A;
-    border:1.5px solid #F03333; 
+    background: color 0;
+    /* border:1.5px solid #F03333;  */
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 100px;
 }
 .thank-you-message{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border:1.5px solid #F03333; 
-    width: 50%;
-}
-.thank-you-message h3{
     color: white;
-    border:1.5px solid #F03333; 
+    justify-content: left;
+    align-items: center;
+    /* border:1.5px solid #F03333;  */
+    width: 25%;
+    height: 200px;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
-    width: 100%;
+    width: 50%;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 25px;
+    
 }
 
 /* Footer */
