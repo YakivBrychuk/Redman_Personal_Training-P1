@@ -89,7 +89,7 @@ body {
     border:1.5px solid #F03333;
     height: 500px;
 }
-.private-training, .boot-camp, .workout-online{
+.calisthenics, .bodyweight, .mobility{
     padding: 10px 10px 10px 20px;
     font-size: 22px;
     background-color: #1A1A1A;
@@ -101,6 +101,7 @@ body {
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    border: 1.5px solid #F03333 !important;
 }
 
 .service-section{
@@ -109,7 +110,7 @@ body {
     justify-content: space-evenly;
     border:1.5px solid #F03333;
 }
-.private-training, .boot-camp, .workout-online{
+.calisthenics, .bodyweight, .mobility{
     text-align: left;
     position: relative;
     padding-bottom: 60px;
