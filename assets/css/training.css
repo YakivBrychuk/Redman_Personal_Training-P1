@@ -91,7 +91,7 @@ body {
 }
 .private-training, .boot-camp, .workout-online{
     padding: 10px 10px 10px 20px;
-    font-size: 100%;
+    font-size: 22px;
     background-color: #1A1A1A;
     color:rgb(255, 255, 255);
     font-family: "Montserrat", sans-serif;
@@ -119,6 +119,7 @@ body {
     position: relative;
     padding-bottom: 60px; 
 }
+
 
 /* button */
 
