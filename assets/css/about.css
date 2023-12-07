@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+* {
+    border:1.5px solid #F03333;
 
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -71,6 +74,7 @@ body {
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
+    margin-top: 150px;
 }
 
 .trainer-profile {
@@ -82,7 +86,7 @@ body {
 
 .trainer-image {
     max-width: 100%; /* Makes sure image is responsive and does not overflow its container */
-    max-height: 300px; /* Adjust the max-height as needed */
+    max-height: 500px; /* Adjust the max-height as needed */
     object-fit: contain; /* Ensures the image maintains its aspect ratio */
     border:1.5px solid #F03333;
 }
