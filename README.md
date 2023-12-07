@@ -27,32 +27,6 @@ Led by Redman, a dedicated practitioner and expert in these disciplines, our mis
 
 ### Existing Features
 
-* Navigation bar
-    * It is featured and fixed on all four pages and the form-received page.
-    * Includes links to the logo, home page, gallery, and contact page.
-    * It is identical in design across the pages.
-
-
-
-
-
-![Footer](/assets/images/footer-image.PNG)
-
-* Gallery 
-    * The gallery will provide the user with supporting images to see shuttle launches, flights, and astronauts.
-    * This section is valuable to the user as they will see our previous flights and astronauts on the Moon.
-
-![Gallery](/assets/images/gallery-image.PNG)
-
-* The Sign Up page
-    * This page will allow users to choose a package, sign up for it, and win a trip to the moon in a lucky draw.
-    * The user can choose a regular flight and explore the surface of both of these to be in the lucky draw.
-    * In the future, there might be more packages to choose from. 
-
-![Sign Up Form](/assets/images/form-image.PNG)
-
-
-
 ---
 
 ## Features Left to Implement
