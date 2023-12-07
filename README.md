@@ -1,4 +1,4 @@
-# REDMAN PERSONAL TRAINING
+# REDMAN PERSONAL TRAINER
 Welcome to Redman Personal Training, your gateway to a healthier, fitter, and more vibrant you! Located in Dublin, we specialize in calisthenics, bodyweight training, mobility exercises, and yoga to help you achieve your fitness goals. 
 
 Led by Redman, a dedicated practitioner and expert in these disciplines, our mission is to empower you on your fitness journey by providing personalized training programs tailored to your unique needs and abilities.
