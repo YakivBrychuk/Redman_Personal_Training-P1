@@ -5,52 +5,63 @@ body {
     padding: 0px;
     background-color: #1A1A1A;
 }
-
-.navBar{
+.navBar {
     position: fixed;
     top: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:100%;
+    width: 100%;
     background-color: #1A1A1A;
-    border:1.5px solid #F03333;
+    border: 1.5px solid #F03333;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
+    padding-right: 30px;
 }
 
-header a{
-    text-decoration: none;
-    color: #323232;
-}
-#logo{
-    height: 150px; 
-    margin-left: 30px;
-    
-}
-#logo img{
-    height: 100%;
-}
-.navUl{
-    list-style: none; 
+#logo {
+    /* Align your logo to the left */
     display: flex;
-    gap: 20px; 
-    justify-content: space-evenly;
-    width: 400px;
-    
+    align-items: center;
+    padding: 6px;
 }
-.navUl ul{
-    display: flex;
-    justify-content: flex-end;
 
+#logo img {
+    height: 100px;
+}
+
+.navUl {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust gap as needed */
+    margin-left: auto;
+    padding-right: 20px;
+}
+    .navUl li {
+    /* Style your list items */
+    padding: 1rem 2rem; 
+    background-color: #F03333; ;
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 1rem;
+    margin-top: 1rem; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  
+    
 }
 
 .nav-link {
-    text-decoration: none; 
-    color: white; 
-   
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; /* Add padding for better click area */
+    border: 1px solid transparent; /* Add transparent border to maintain layout on hover */
 }
 
+.nav-link:hover {
+    background: rgba(253, 0, 0, 1); 
+}
 
 
 .hero-section {
