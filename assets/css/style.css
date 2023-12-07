@@ -141,7 +141,7 @@ body {
     background-color: rgba(26, 26, 26, 0.7); 
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 22px; 
+    font-size: 17px; 
     line-height: 2; 
     text-align: justify; 
     margin-bottom: 50px;
@@ -174,8 +174,27 @@ footer i:hover {
     justify-content: space-evenly;
 }
 
-/* @media only screen and (max-width: 600px){
-    #menu-toggle{
-        display:block;
+/* Media queries */
+
+/* For screens max-width 1200px and down */
+
+@media screen and (max-width: 1200px) {
+    .navUl li {
+        padding: 0.8rem 2rem; /* Slightly reduce padding */
+        font-size: 20px; /* Reduce font size */
     }
-} */
+    #logo img {
+        height: 80px; /* Reduce logo size */
+    }
+    .hero-text h1 {
+        font-size: 18px; /* Reduce font size */
+        padding: 20px; /* Adjust padding */
+    }
+    .hero-section {
+        height: 800px; /* Adjust hero section height */
+        width: 80%; /* Increase width to maintain aspect ratio */
+    }
+    .hero-text {
+        width: 80%; /* Match hero section width */
+    }
+}
