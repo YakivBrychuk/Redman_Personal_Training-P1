@@ -180,21 +180,87 @@ footer i:hover {
 
 @media screen and (max-width: 1200px) {
     .navUl li {
-        padding: 0.8rem 2rem; /* Slightly reduce padding */
-        font-size: 20px; /* Reduce font size */
+        padding: 0.8rem 2rem; 
+        font-size: 20px; 
     }
     #logo img {
-        height: 80px; /* Reduce logo size */
+        height: 80px; 
     }
     .hero-text h1 {
-        font-size: 18px; /* Reduce font size */
-        padding: 20px; /* Adjust padding */
+        font-size: 18px; 
+        padding: 20px; 
     }
     .hero-section {
-        height: 800px; /* Adjust hero section height */
-        width: 80%; /* Increase width to maintain aspect ratio */
+        height: 800px; 
+        width: 80%; 
     }
     .hero-text {
-        width: 80%; /* Match hero section width */
+        width: 80%; 
     }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header, .navBar {
+        position: static; 
+    }
+    .navUl li {
+        padding: 0.5rem 1rem; 
+        font-size: 16px; 
+    }
+    .hero-text h1 {
+        font-size: 16px; 
+    }
+    .intro-message-text {
+        font-size: 15px; 
+        padding: 5px; 
+    }
+    footer {
+        padding: 5px 0; 
+        gap: 0.5rem;
+    }
+    footer i {
+        margin: 10px; 
+    }
+    .socialmedia-icons {
+        width: 100%; 
+        justify-content: space-around; 
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .navBar {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 10px 20px; 
+    }
+    #logo {
+        padding: 0; 
+    }
+    .navUl {
+        padding-left: 0;
+    }
+    .navUl li {
+        text-align: center; 
+    }
+    .textButtom h2 {
+        font-size: 18px;
+    }
+    footer i {
+        font-size: 35px; 
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+    .navUl {
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+    .navUl li {
+        width: 100%; /* Full width for nav items */
+    }
+}
+
