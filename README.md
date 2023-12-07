@@ -78,12 +78,6 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ### Manual Testing
 
-* The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
-* The website was viewed on a desktop computer, laptop, and Samsung Galaxy A52 mobile phone.
-* A large amount of testing was done to ensure links between pages are working correctly on all pages.
-* Family and friends were asked to review the website for a better understanding of the user experience.
-* Dev Tools was used to test how the site looks on various screen sizes.
-
 ### Lighthouse Report
 
 #### Mobile analysis
