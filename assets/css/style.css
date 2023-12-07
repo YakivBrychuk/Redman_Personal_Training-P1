@@ -13,14 +13,14 @@ body {
     justify-content: space-between;
     width: 100%;
     background-color: #1A1A1A;
-    border: 1.5px solid #F03333;
+    border-bottom: 3px solid #F03333;
+    border-top: 1.5px solid #F03333;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
     padding-right: 30px;
 }
 
 #logo {
-    /* Align your logo to the left */
+   
     display: flex;
     align-items: center;
     padding: 6px;
@@ -33,19 +33,18 @@ body {
 .navUl {
     list-style: none;
     display: flex;
-    gap: 20px; /* Adjust gap as needed */
+    gap: 20px; 
     margin-left: auto;
     padding-right: 20px;
 }
-    .navUl li {
-    /* Style your list items */
-    padding: 1rem 2rem; 
+
+.navUl li {
+    padding: 1rem 3rem; 
     background-color: #F03333; ;
     color: white; 
     border: none; 
     cursor: pointer; 
-    font-size: 1rem;
-    margin-top: 1rem; 
+    font-size: 22px; 
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
   
@@ -55,8 +54,8 @@ body {
 .nav-link {
     text-decoration: none;
     color: white;
-    padding: 10px 15px; /* Add padding for better click area */
-    border: 1px solid transparent; /* Add transparent border to maintain layout on hover */
+    padding: 10px 15px; 
+    border: 1px solid transparent; 
 }
 
 .nav-link:hover {
@@ -94,7 +93,7 @@ body {
     font-family: "Montserrat", sans-serif;
     border:1.5px solid #F03333;
     font-size: 20px;
-    background: rgba(26, 26, 26, 0.7); /* Opacity 70% */ 
+    background: rgba(26, 26, 26, 0.7); 
 }
 .button-link{
     display: flex;
@@ -107,10 +106,10 @@ body {
     border-radius: 5px;
     font-size: 15px;
     width: 12%;
-    background: rgba(253, 0, 0, 0.7); /* Opacity 70% */ 
+    background: rgba(253, 0, 0, 0.7); 
 }
 .button-link:hover {
-    background: rgba(253, 0, 0, 0.9); /
+    background: rgba(253, 0, 0, 0.9); 
 }
 
 
@@ -125,7 +124,7 @@ body {
     color:white;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
-    background: rgba(26, 26, 26, 0.7); /* Opacity 70% */ 
+    background: rgba(26, 26, 26, 0.7); 
     margin-bottom: 0;
     
 }
@@ -133,18 +132,18 @@ body {
 .intro-message-text{
     display: flex;
     justify-content: center;
-    width: 69%; /* Adjust width to control line length */
+    width: 69%; 
     height: 300px;
-    margin: auto; /* Shorthand for margin settings */
-    padding: 10px; /* Increase padding for better spacing */
+    margin: auto; 
+    padding: 10px; 
     padding-left: 10px;
     border: 1.5px solid #F03333;
-    background-color: rgba(26, 26, 26, 0.7); /* Optional: slight dark background for better contrast */
+    background-color: rgba(26, 26, 26, 0.7); 
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 22px; /* Specific font size for better readability */
-    line-height: 2; /* Improved line height for better readability */
-    text-align: justify; /* Left-aligned text for better readability */
+    font-size: 22px; 
+    line-height: 2; 
+    text-align: justify; 
     margin-bottom: 50px;
     margin-top: 50px;
 }
