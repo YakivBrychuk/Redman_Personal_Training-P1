@@ -84,7 +84,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <details>
 <summary>Home Page
 </summary>
-
+</details>
 
 #### Desktop analysis
 
