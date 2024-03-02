@@ -17,7 +17,7 @@
     position: absolute;
     background-color: #1A1A1A; 
     width: 100%;
-    top: 60px; 
+    top: 110px; 
 }
 
 /* Style for the menu icon */
@@ -70,8 +70,7 @@ body {
     list-style: none;
     display: flex;
     gap: 20px; 
-    margin-left: auto;
-    padding-right: 20px;
+    margin-left: auto;   
 }
 
 .navUl li {
@@ -238,30 +237,39 @@ footer i:hover {
 @media only screen and (max-width: 768px) {
     .menu-icon {
         display: block;
+        border-bottom: 100px;
     }
-    
+
     .navUl {
-        display: none; 
+        display: none; /* Hide initially, will be shown when the menu-icon is tapped */
         flex-direction: column;
-        gap: 0;
-        padding: 0;
-        background-color: #1A1A1A; 
         position: absolute;
         width: 100%;
-        top: 100px; 
+        top: 100px; /* Adjust to the height of your header */
         left: 0;
+        z-index: 99;
+        background-color: #1A1A1A; /* Match the background color of your header */
+        border-top: 3px solid #F03333; /* Style the top border to match your design */
+        padding-top: 10px; /* Add some space at the top */
     }
     
     .navUl li {
+        width: 100%; /* Full width to match the navigation drawer */
         text-align: center; 
-        padding: 12px 0; 
-        display: block;
     }
-    
-    /* Display the menu when menu-toggle is checked */
-    #menu-toggle:checked + .menu-icon + .navUl {
+
+    .navUl li a {
+        display: block; /* Make the anchor fill the li for larger click area */
+        padding: 15px 20px; /* Add padding for touch targets */
+        color: white; /* Text color */
+        text-decoration: none; /* Remove underline */
+        border-bottom: 1px solid #F03333; /* Add a border to separate items */
+    }
+
+    #menu-toggle:checked ~ .navUl {
         display: flex;
     }
+
 
     .navBar {
         padding: 20px; 
