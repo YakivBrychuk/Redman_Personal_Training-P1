@@ -1,5 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
 
+/* Reset styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Hide the checkbox */
+.menu-toggle {
+    display: none;
+}
+
+/* Style for the menu icon */
+.menu-icon {
+    display: none; /* Hidden by default, shown in the media query for mobile */
+    cursor: pointer;
+    font-size: 30px; /* Size of the hamburger icon */
+    color: #ffffff; /* Color of the icon */
+}
+
+/* Initially hide the menu on mobile */
+.navUl {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    transition: all 0.5s ease; /* Smooth transition */
+}
+
 body {
     margin: 0px;
     padding: 0px;
