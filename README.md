@@ -3,45 +3,75 @@ Welcome to Redman Personal Training, your gateway to a healthier, fitter, and mo
 
 Led by Redman, a dedicated practitioner and expert in these disciplines, our mission is to empower you on your fitness journey by providing personalized training programs tailored to your unique needs and abilities.
 
-![Am I Responsive](assets/readme-content/am-i-responsive.png)
+![Am I Responsive](assets/readme-content/amiresponsive.png)
 
 [View Redman Personal Training live project here]((https://yakivbrychuk.github.io/Redman_Personal_Training-P1/index.html))
 - - -
 ## Table of Contents
 
-#Index Goes Here
----In Progress 
+
 ## User Experience (UX)
 
 
 
 ### User Stories
+* First-time visitor goals
+    * Quickly grasp the unique value of Redman Personal Training.
+    * Effortlessly navigate through the website to explore services and information.
+    * Easily initiate their fitness journey by filling out the "Train with Me" form.
 
+* Returning visitor goals
+   * Access updated information about training programs and services.
+   * Find contact details to get in touch with the Redman team for further assistance.
+
+* Regular clients 
+   * Stay informed about new training packages and updates.
+   * Revisit the gallery to see the latest success stories and motivational content.
 
 - - --
 
 ## Features
 
+* Redman Personal Training is designed for individuals seeking a transformative fitness journey in Dublin.
+* Prospective clients can embark on this journey by navigating to the "Train with Me" page and submitting a    detailed form to tailor their personalized fitness plan.
+* Optimized for seamless functionality across all device sizes, ensuring an engaging and accessible experience for every user.
 
 
 ### Existing Features
+* Responsive and intuitive navigation menu.
+* Detailed service descriptions to cater to all fitness levels and interests.
+* A user-friendly form on the "Train with Me" page, inviting visitors to start their fitness journey.
+* Contact information readily available for inquiries or further engagement.
+#### Home page
+![Navigation](/assets/readme-content/homepagess.png)
+#### Navigation
+![Navigation](/assets/readme-content/nav-bar.png)
 
----
+#### About page
+![About page](/assets/readme-content/about.png)
+
+#### Navigation
+![Train with me](/assets/readme-content/train-w-me.png)
+#### Train with me page
+![Contact](/assets/readme-content/contact.png)
+#### Thank You page
+![Thank You](/assets/readme-content/thankyou.png)
 
 ## Features Left to Implement
 
-* 
+* Regularly updated gallery showcasing client transformations and motivational content.
+* An interactive calendar for scheduling sessions directly through the website.
 
 ## Design
 
  * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme]
+    * Primary colors used on the website: ![Color Scheme](assets/readme-content/Color%20scheme.png)
 
  * Typography
-    * Montserrat font is main font used throughout the ite with sans-serif as its fallback font in case Kanit doesn't import for some reasson.
+    * Montserrat font is main font used throughout the ite with sans-serif as its fallback font.
 
  * Wireframes
-    * Balsamic
+    * Pen and paper in a notebook: simple and effective.
 ---
 
 ## Technologies Used
@@ -72,23 +102,15 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
  * [W3C Markup Validtor](https://validator.w3.org/)
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-### Validation results
+## Unfixed Bugs
 
+* Unable to find the css parameter responsible for "Navigation bar differs on certain pages."
+
+### Validation results
 
 ### Manual Testing
 
 ### Lighthouse Report
-
-#### Mobile analysis
-<details>
-<summary>Home Page
-</summary>
-</details>
-
-#### Desktop analysis
-
-
----
 
 ## Deployment and local development
 
@@ -135,9 +157,7 @@ By forking the repository, we make a copy of the original repository on our GitH
 
 ### Media 
 
- * [Pexels](https://www.pexels.com/) free stock photos, royalty free images.
- * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
- * [Pixlr](https://pixlr.com/) Resizing images.
+ * All pictures were taken by me with agreement of Redman Overton 
 ---
 
 ## Acknowledgements

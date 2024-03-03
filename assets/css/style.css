@@ -214,8 +214,27 @@ footer i:hover {
     display: flex;
     justify-content: space-evenly;
 }
-
 /* Media queries */
+/* For very small screens */
+
+@media screen and (max-width: 400px) {
+    .navUl li {
+        padding: 0.5rem; 
+        font-size: 16px; 
+    }
+    .trainer-intro {
+        margin-top: 80px; 
+        font-size: 18px; 
+    }
+    .button-link {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+    .trainer-profile {
+        gap: 15px; 
+    }
+}
+
 @media screen and (min-width: 576px) {
     
     #logo img {

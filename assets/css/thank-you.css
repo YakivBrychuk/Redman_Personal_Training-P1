@@ -299,6 +299,9 @@ footer i:hover {
         #logo img {
             height: 80px; 
         }
+        .trainer-image-container{
+            background-image: url("/assets/images/thankyou.jpg");
+        }
         .hero-text h1 {
             font-size: 18px; 
             padding: 20px; 

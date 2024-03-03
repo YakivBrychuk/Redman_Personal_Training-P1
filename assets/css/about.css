@@ -293,7 +293,7 @@ footer i:hover {
         gap: 15px; 
     }
 }
-}
+
 @media screen and (max-width: 992px) {
     .navUl {
         flex-direction: row; 

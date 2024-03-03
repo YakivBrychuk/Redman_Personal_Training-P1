@@ -231,6 +231,59 @@ footer i:hover {
     justify-content: space-evenly;
 }
 
+/* For small screens and mobile devices */
+@media screen and (max-width: 576px) {
+    .navBar {
+        flex-direction: column; 
+        padding: 10px 0; 
+    }
+    #logo {
+        margin-bottom: 10px; 
+    }
+    .navUl li {
+        padding: 0.5rem 1rem; 
+        font-size: 18px; 
+    }
+    .trainer-bio {
+        max-width: 95%; 
+    }
+    .trainer-intro {
+        font-size: 20px; 
+    }
+    footer {
+        padding: 20px 0; 
+        flex-direction: column; 
+        gap: 0.5rem; 
+    }
+    footer i {
+        font-size: 35px; 
+        margin: 10px; 
+    }
+    .socialmedia-icons {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+}
+
+/* For very small screens */
+@media screen and (max-width: 400px) {
+    .navUl li {
+        padding: 0.5rem; 
+        font-size: 16px; 
+    }
+    .trainer-intro {
+        margin-top: 80px; 
+        font-size: 18px; 
+    }
+    .button-link {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+    .trainer-profile {
+        gap: 15px; 
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .menu-icon {
         display: block;
