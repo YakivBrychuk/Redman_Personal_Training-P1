@@ -210,28 +210,52 @@ footer i:hover {
 }
 
 /* Media queries */
+@media screen and (min-width: 576px) {
+    
+    #logo img {
+        height: 80px;
+    }
 
-/* For screens max-width 1200px and down */
-
-@media screen and (max-width: 1200px) {
     .navUl li {
         padding: 0.8rem 2rem; 
         font-size: 20px; 
     }
-    #logo img {
-        height: 80px; 
+
+    .hero-section {
+        width: 80%; 
+        height: auto; 
+        min-height: 600px;
+        margin-top: 150px; 
+        background-position: center right; 
     }
-    .hero-text h1 {
+
+    .hero-text {
+        padding: 20px; 
+        width: 90%; 
+    }
+    .hero-text h1, .textButtom h2 {
         font-size: 18px; 
+        padding: 15px; 
+    }
+    .button-link {
+        font-size: 14px; 
+        padding: 10px 20px; 
+        margin-top: 20px; 
+    }
+
+    .intro-message-text {
+        width: 85%; 
+        font-size: 15px; 
         padding: 20px; 
     }
-    .hero-section {
-        height: 800px; 
-        width: 80%; 
+
+    .socialmedia-icons {
+        width: 90%; 
     }
-    .hero-text {
-        width: 80%; 
+    footer i {
+        font-size: 40px; 
     }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -241,35 +265,34 @@ footer i:hover {
     }
 
     .navUl {
-        display: none; /* Hide initially, will be shown when the menu-icon is tapped */
+        display: none; 
         flex-direction: column;
         position: absolute;
         width: 100%;
-        top: 100px; /* Adjust to the height of your header */
+        top: 100px; 
         left: 0;
         z-index: 99;
-        background-color: #1A1A1A; /* Match the background color of your header */
-        border-top: 3px solid #F03333; /* Style the top border to match your design */
-        padding-top: 10px; /* Add some space at the top */
+        background-color: #1A1A1A; 
+        border-top: 3px solid #F03333; 
+        padding-top: 10px; 
     }
     
     .navUl li {
-        width: 100%; /* Full width to match the navigation drawer */
+        width: 100%; 
         text-align: center; 
     }
 
     .navUl li a {
-        display: block; /* Make the anchor fill the li for larger click area */
-        padding: 15px 20px; /* Add padding for touch targets */
-        color: white; /* Text color */
-        text-decoration: none; /* Remove underline */
-        border-bottom: 1px solid #F03333; /* Add a border to separate items */
+        display: block; 
+        padding: 15px 20px; 
+        color: white; 
+        text-decoration: none; 
+        border-bottom: 1px solid #F03333; 
     }
 
     #menu-toggle:checked ~ .navUl {
         display: flex;
     }
-
 
     .navBar {
         padding: 20px; 
@@ -282,4 +305,78 @@ footer i:hover {
     .nav-link {
         font-size: 18px; 
     }
+    .hero-section {
+        background-image: url("./../images/heroimage.jpg");
+        background-size:cover; 
+        background-position: center; 
+        width: 100%; 
+        height: auto; 
+        min-height: 500px; 
+        margin-top: 120px; 
+        margin-bottom: 50px; 
+        border: 1.5px solid #F03333; 
+        padding: 20px 0; 
+        background-position: center right;
+    }
+    .hero-text {
+        padding: 20px; 
+        width: 100%; 
+    }
+    .hero-text h1, .textButtom h2 {
+        font-size: 16px; 
+        padding: 15px; 
+    }
+    .button-link {
+        width: auto; 
+        padding: 8px 16px; 
+        font-size: 14px; 
+        margin-top: 15px; 
+    }
+
+    .intro-message-text {
+        width: 90%; 
+        font-size: 12px; 
+        padding: 15px; 
+        line-height: 1.6; 
+    }
+
+   
+    .socialmedia-icons {
+        width: 100%; 
+        justify-content: space-around; 
+    }
+    footer i {
+        font-size: 40px; 
+    }
 }
+@media screen and (max-width: 992px) {
+    .navUl {
+        flex-direction: row; 
+        align-items: center; 
+    }
+    .navUl li {
+        width: 100%; 
+    }
+}
+
+    @media screen and (max-width: 1200px) {
+        .navUl li {
+            padding: 0.8rem 2rem; 
+            font-size: 20px; 
+        }
+        #logo img {
+            height: 80px; 
+        }
+        .hero-text h1 {
+            font-size: 18px; 
+            padding: 20px; 
+        }
+        .hero-section {
+            height: 800px; 
+            width: 80%; 
+        }
+        .hero-text {
+            width: 80%; 
+        }
+}
+
